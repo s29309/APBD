@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jj49ql1K1CW0CDokL3nVxYqXLjuA/Zxa+f91wDW5k4yRhnhDclCu5Myh1llqcPnl44IZnHMKIbg0IpMRSNiyFQ==",
+  "success": true,
+  "projectFilePath": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Cw5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kotou\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kotou\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kotou\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\kotou\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\kotou\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\kotou\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

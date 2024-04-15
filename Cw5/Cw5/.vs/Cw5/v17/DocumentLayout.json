@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|e:\\pjatk\\apbd\\git\\apbd\\cw5\\cw5\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|e:\\pjatk\\apbd\\git\\apbd\\cw5\\cw5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|e:\\pjatk\\apbd\\git\\apbd\\cw5\\cw5\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|solutionrelative:animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|e:\\pjatk\\apbd\\git\\apbd\\cw5\\cw5\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|solutionrelative:controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|e:\\pjatk\\apbd\\git\\apbd\\cw5\\cw5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0B412AB-632B-4F2A-977C-3B7418134AEE}|Cw5.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T00:44:00.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\Zad5\\Exercise4\\appsettings.json",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\appsettings.json",
+              "RelativeToolTip": "..\\..\\Zad5\\Exercise4\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T00:11:44.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\Zad5\\Exercise4\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Zad5\\Exercise4\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\Zad5\\Exercise4\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T00:11:23.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Db.cs",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Db.cs",
+              "RelativeDocumentMoniker": "Db.cs",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Db.cs",
+              "RelativeToolTip": "Db.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T00:00:55.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnimalController.cs",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "Controllers\\AnimalController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:56:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Animal.cs",
+              "RelativeDocumentMoniker": "Animal.cs",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Animal.cs",
+              "RelativeToolTip": "Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:51:25.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:49:54.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
