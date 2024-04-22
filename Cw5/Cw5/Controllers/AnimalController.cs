@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.Data.SqlClient;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,16 +9,16 @@ namespace Cw5.Controllers
     public class AnimalController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        private readonly IDb _Db;
+        private readonly IDb _db;
         public AnimalController(IConfiguration configuration, IDb db)
         {
-            _Db = db;
+            _db = db;
             _configuration = configuration;
         }
         [HttpGet]
         public async Task<IActionResult> GetAnimals()
         {
-            var animals = await _Db.GetAnimalList();
+            var animals = await _db.GetAnimalList();
             return Ok(animals);
         }
 
@@ -28,26 +26,26 @@ namespace Cw5.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAnimal(Animal animal)
         {
-            if (await _Db.Exist(animal.ID))
+            if (await _db.Exist(animal.Id))
             {
                 return Conflict();
             }
 
-            await _Db.CreateAnimal(new Animal
+            await _db.CreateAnimal(new Animal
             {
-                ID = animal.ID,
-                Weight = animal.Weight,
+                Id = animal.Id,
                 Name = animal.Name,
-                Colour = animal.Colour,
+                Description = animal.Description,
                 Category = animal.Category,
+				Area = animal.Area,
             });
-            return Created($"/api/animals/{animal.ID}", animal);
+            return Created($"/api/animals/{animal.Id}", animal);
         }
 
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateAnimal(string id, Animal animal)
         {
-            if (await _Db.UpdateAnimal(id, animal))
+            if (await _db.UpdateAnimal(id, animal))
             {
                 return Ok(animal);
             }
@@ -56,7 +54,7 @@ namespace Cw5.Controllers
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteAnimal(string id)
         {
-            if (await _Db.DeleteAnimal(id))
+            if (await _db.DeleteAnimal(id))
             {
                 return Ok();
             }

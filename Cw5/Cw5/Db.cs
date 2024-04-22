@@ -1,6 +1,4 @@
-﻿using Cw5;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
+﻿using System.Data.SqlClient;
 
 namespace Cw5
 {
@@ -50,11 +48,11 @@ namespace Cw5
             {
                 var command = connection.CreateCommand();
                 command.CommandText = "insert into Animal (ID, Name, Description, Category, Area) values (@1,@2,@3,@4,@5)";
-                command.Parameters.AddWithValue("@1", animal.ID);
-                command.Parameters.AddWithValue("@2", animal.Weight);
-                command.Parameters.AddWithValue("@3", animal.Name);
-                command.Parameters.AddWithValue("@4", animal.Colour);
-                command.Parameters.AddWithValue("@5", animal.Category);
+                command.Parameters.AddWithValue("@1", animal.Id);
+                command.Parameters.AddWithValue("@2", animal.Name);
+                command.Parameters.AddWithValue("@3", animal.Description);
+                command.Parameters.AddWithValue("@4", animal.Category);
+                command.Parameters.AddWithValue("@5", animal.Area);
                 await connection.OpenAsync();
                 await command.ExecuteNonQueryAsync();
             }
@@ -66,10 +64,10 @@ namespace Cw5
             {
                 var command = connection.CreateCommand();
                 command.CommandText = $"update Animal set Name = @2, Description = @3, Category = @4, Area = @5 where ID = {id}";
-                command.Parameters.AddWithValue("@2", animal.Weight);
-                command.Parameters.AddWithValue("@3", animal.Name);
-                command.Parameters.AddWithValue("@4", animal.Colour);
-                command.Parameters.AddWithValue("@5", animal.Category);
+                command.Parameters.AddWithValue("@2", animal.Name);
+                command.Parameters.AddWithValue("@3", animal.Description);
+                command.Parameters.AddWithValue("@4", animal.Category);
+                command.Parameters.AddWithValue("@5", animal.Area);
                 await connection.OpenAsync();
                 var numRows = await command.ExecuteNonQueryAsync();
                 if (numRows > 0) { return true; }
@@ -104,11 +102,11 @@ namespace Cw5
                 {
                     animalList.Add(new Animal
                     {
-                        ID = reader.GetInt32(0),
-                        Weight = reader.GetDouble(1),
-                        Name = reader.GetString(2),
-                        Colour = reader.GetString(3),
-                        Category = reader.GetString(4),
+                        Id = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+			Description = reader.GetString(2),
+                        Category = reader.GetString(3),
+                        Area = reader.GetString(4),
                     });
                 }
             }

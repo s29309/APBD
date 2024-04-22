@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Cw5.csproj": {}
+    "C:\\Users\\s29309\\Desktop\\jkkg\\k\\Cw5\\Cw5\\Cw5.csproj": {}
   },
   "projects": {
-    "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Cw5.csproj": {
+    "C:\\Users\\s29309\\Desktop\\jkkg\\k\\Cw5\\Cw5\\Cw5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Cw5.csproj",
+        "projectUniqueName": "C:\\Users\\s29309\\Desktop\\jkkg\\k\\Cw5\\Cw5\\Cw5.csproj",
         "projectName": "Cw5",
-        "projectPath": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\Cw5.csproj",
-        "packagesPath": "C:\\Users\\kotou\\.nuget\\packages\\",
-        "outputPath": "E:\\PJATK\\APBD\\git\\APBD\\Cw5\\Cw5\\obj\\",
+        "projectPath": "C:\\Users\\s29309\\Desktop\\jkkg\\k\\Cw5\\Cw5\\Cw5.csproj",
+        "packagesPath": "C:\\Users\\s29309\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s29309\\Desktop\\jkkg\\k\\Cw5\\Cw5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kotou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\s29309\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
