@@ -19,16 +19,6 @@ namespace Cw10.Configurations
 
             builder.Property(e => e.Date).IsRequired().HasColumnType("datetime");
             builder.Property(e => e.DueDate).IsRequired().HasColumnType("datetime");
-
-            builder.HasOne(e => e.Patient)
-                .WithMany(m => m.Prescriptions)
-                .HasForeignKey(m => m.IdPatient)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            builder.HasOne(e => e.Doctor)
-                .WithMany(m => m.Prescriptions)
-                .HasForeignKey(m => m.IdDoctor)
-                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -32,6 +32,10 @@ namespace Cw10.Models
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
         public DbSet<PrescriptionMedicament> PrescriptionMedicaments { get; set; }
+        public Task<int> SaveChanges(CancellationToken cancellationToken = default)
+        {
+            throw new NotImplementedException();
+        }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

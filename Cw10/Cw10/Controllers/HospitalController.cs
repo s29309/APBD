@@ -13,14 +13,14 @@ namespace Cw10.Controllers
     public class HospitalController : ControllerBase
     {
         private readonly IDbService _dbService;
-        public HospitalController(IDbService DbService)
+        public HospitalController(IDbService dbService)
         {
-            _dbService = DbService;
+            _dbService = dbService;
         }
         [HttpGet("patient")]
-        public async Task<IActionResult> GetPatient()
+        public async Task<IActionResult> GetPatient(GetPatientRequest request)
         {
-            return await _dbService.GetPatient();
+            return await _dbService.GetPatient(request);
         }
         [HttpPost("prescription")]
         public async Task<IActionResult> AddPrescription(AddPrescription request)
